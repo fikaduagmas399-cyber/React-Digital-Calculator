@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 
-function Display() {
-  const [displayValue, setDisplayValue] = useState('');
+function Display({inputValue}) {
 
   return (
     <div>
       <input
         type="text"
         id="display"
-        value={displayValue}
+        value={inputValue}
         placeholder="0"
         readOnly
       />
