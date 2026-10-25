@@ -22,7 +22,7 @@ function App() {
     } else if(value === '=') {
        try {
          let sanitizedInput = inputValue.trim();
-         if(!/^[0-9+\-*/%.\s]+$/.test(sanitizedInput)) {
+         if(!/^[0-9+\-*/%.\s-]+$/.test(sanitizedInput)) {
           setInputValue('Error');
           setIsResult(true);
           return;
@@ -49,6 +49,11 @@ function App() {
       }
 
       if(operators.includes(value)) {
+        if(inputValue === '' && value === '-') {
+          setInputValue(value);
+          return;
+        }
+
         if(inputValue === '') return;
         const lastChar = inputValue.slice(-1);
 
