@@ -1,10 +1,11 @@
-# React Calculator
+# React Digital Calculator
 
 A modern, mobile-first responsive arithmetic calculator built with **React** and **Vite**. Developed as part of my frontend web development portfolio.
 
 ## Live Demo
 
-[Check out the live application here](#)
+[Check out the live application here](https://react-digital-calculator.vercel.app/)
+![React Digital Calculator Preview](./public/preview.png)
 
 ## Feature
 
