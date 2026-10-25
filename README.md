@@ -27,6 +27,8 @@ Clone the repository and run the following commands:
 # Install dependencies npm install
 # Run the development server npm run dev
 
----
-Developed with by **Fikadu Agmas**
 ```
+
+---
+
+Developed with by **Fikadu Agmas**
