@@ -57,7 +57,7 @@ body {
 
 /* general buttons style */
 button {
-    height: 72px;
+    height: 65px;
     border: none;
     border-radius: 16px;
     background-color: #334155;
@@ -66,7 +66,7 @@ button {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease; 
-    margin-bottom: 18px;  
+    margin-bottom: 16px;  
 }
 
 /* sign operator button style */
