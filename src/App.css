@@ -91,14 +91,14 @@ button {
 @media (min-width: 768px) {
     .calculator {
         max-width: 450px;
-        padding: 24px;
+        /* padding: 24px; */
     }
 }
 
 @media (min-width: 1024px) {
     .calculator {
         max-width: 480px;
-        padding: 24px;
+        /* padding: px; */
     }
 
     button:hover {
