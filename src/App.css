@@ -98,7 +98,7 @@ button {
 @media (min-width: 1024px) {
     .calculator {
         max-width: 480px;
-        padding: 32px;
+        padding: 24px;
     }
 
     button:hover {
